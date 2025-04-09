@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E936C3B-90C1-4365-AE38-754F10F000CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeHelper.Server", "src\HomeHelper.Server\HomeHelper.Server.csproj", "{332E000D-A17F-4699-B38A-967F0C45D86F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeHelper.Data", "src\HomeHelper.Data\HomeHelper.Data.csproj", "{41203A5E-CE0F-4AA7-8A66-4A0650D8C2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeHelper.Domain", "src\HomeHelper.Domain\HomeHelper.Domain.csproj", "{7B7BAE55-6B43-4DDF-BE6C-94D6343B7CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeHelper.Shared", "src\HomeHelper.Shared\HomeHelper.Shared.csproj", "{F54CD233-3BBA-4193-A5B3-C1638F6E62F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeHelper.Client", "src\HomeHelper.Client\HomeHelper.Client.csproj", "{20D9F984-9AE9-4655-83BC-4F5B33F05D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{332E000D-A17F-4699-B38A-967F0C45D86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332E000D-A17F-4699-B38A-967F0C45D86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332E000D-A17F-4699-B38A-967F0C45D86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332E000D-A17F-4699-B38A-967F0C45D86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41203A5E-CE0F-4AA7-8A66-4A0650D8C2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41203A5E-CE0F-4AA7-8A66-4A0650D8C2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41203A5E-CE0F-4AA7-8A66-4A0650D8C2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41203A5E-CE0F-4AA7-8A66-4A0650D8C2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7BAE55-6B43-4DDF-BE6C-94D6343B7CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7BAE55-6B43-4DDF-BE6C-94D6343B7CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7BAE55-6B43-4DDF-BE6C-94D6343B7CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7BAE55-6B43-4DDF-BE6C-94D6343B7CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54CD233-3BBA-4193-A5B3-C1638F6E62F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54CD233-3BBA-4193-A5B3-C1638F6E62F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54CD233-3BBA-4193-A5B3-C1638F6E62F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54CD233-3BBA-4193-A5B3-C1638F6E62F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D9F984-9AE9-4655-83BC-4F5B33F05D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D9F984-9AE9-4655-83BC-4F5B33F05D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D9F984-9AE9-4655-83BC-4F5B33F05D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D9F984-9AE9-4655-83BC-4F5B33F05D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{332E000D-A17F-4699-B38A-967F0C45D86F} = {0E936C3B-90C1-4365-AE38-754F10F000CE}
+		{41203A5E-CE0F-4AA7-8A66-4A0650D8C2F9} = {0E936C3B-90C1-4365-AE38-754F10F000CE}
+		{7B7BAE55-6B43-4DDF-BE6C-94D6343B7CFC} = {0E936C3B-90C1-4365-AE38-754F10F000CE}
+		{F54CD233-3BBA-4193-A5B3-C1638F6E62F4} = {0E936C3B-90C1-4365-AE38-754F10F000CE}
+		{20D9F984-9AE9-4655-83BC-4F5B33F05D5B} = {0E936C3B-90C1-4365-AE38-754F10F000CE}
+	EndGlobalSection
+EndGlobal
